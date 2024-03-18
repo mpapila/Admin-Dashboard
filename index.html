@@ -11,7 +11,15 @@
 <body>
     <div class="container">
         <div class="sidebar">
-            <div class="dashboard"><img src="./icons/01-dashboard.svg" style="height: 20px;"> Dashboard</div>
+            <div class="dashboard">
+                <img
+                    class="dashboard-icon"
+                    src="./icons/01-dashboard.svg"
+                >
+                <div>
+                    Dashboard
+                </div>
+            </div>
             <div class="primary-links">
                 <p>Home</p>
                 <p>Profile</p>
@@ -24,73 +32,104 @@
                 <p>Privacy</p>
             </div>
         </div>
-        <div class="header">
-            <div class="search">
-                <img src="./icons/11-search.svg" style="height: 20px; padding-right: 20px;">
-                <input type="text" style="border-radius: 10px; width: 450px; background-color: #E2E8F0;">
-            </div>
-            <div class="profile">
-                <img src="./icons/12-bell-notification.svg" style="height: 20px; padding-right: 20px;"> <img
-                    src="./icons/16-pp.jpg" style="height: 35px; padding-right: 20px;"> Mehmet Papila
-            </div>
-            <div class="welcomemessage">
-                <div><img src="./icons/16-pp.jpg" style="height: 60px;" ;></div>
-                <div>Hi there <br>Mehmet Papila</div>
-            </div>
-            <div class="buttons">
-                <button>New</button>
-                <button>Upload</button>
-                <button>Share</button>
-            </div>
-        </div>
-        <div class="main-content">
-            <!-- Your Projects -->
-            <div class="projects">
-
-                <div class="supercool">Super Cool Projects <br>mbled it to make a type specimen book. It has survived
-                    not only five centuries, but also
-                    <div class="project-icons"><img src="./icons/13-starplus.svg"><img
-                            src="./icons/14-eye-plus.svg"><img src="./icons/15-link.svg"></div>
+        <div class="right-main">
+            <div class="header">
+                <div class="top">
+                    <img
+                        src="./icons/11-search.svg"
+                        class="top-icon"
+                    />
+                    <input type="text" class="search-input">
+                    <img
+                        src="./icons/12-bell-notification.svg"
+                        class="top-icon"
+                    />
+                    <img
+                        src="./icons/16-pp.jpg"
+                        class="profile-image"
+                    />
+                    <div class="profile-name">
+                        Mehmet Papila
+                    </div>
                 </div>
-                <div class="supercool">Super Cool Projects <br>mbled it to make a type specimen book. It has survived
-                    not only five centuries, but also 
-                    <div class="project-icons"><img src="./icons/13-starplus.svg"><img
-                        src="./icons/14-eye-plus.svg"><img src="./icons/15-link.svg"></div>
-                </div>
-                <div class="supercool">Super Cool Projects <br>mbled it to make a type specimen book. It has survived
-                    not only five centuries, but also 
-                    <div class="project-icons"><img src="./icons/13-starplus.svg"><img
-                        src="./icons/14-eye-plus.svg"><img src="./icons/15-link.svg"></div>
-                </div>
-                <div class="supercool">Super Cool Projects <br>mbled it to make a type specimen book. It has survived
-                    not only five centuries, but also 
-                    <div class="project-icons"><img src="./icons/13-starplus.svg"><img
-                        src="./icons/14-eye-plus.svg"><img src="./icons/15-link.svg"></div>
-                </div>
-                <div class="supercool">Super Cool Projects <br>mbled it to make a type specimen book. It has survived
-                    not only five centuries, but also 
-                    <div class="project-icons"><img src="./icons/13-starplus.svg"><img
-                        src="./icons/14-eye-plus.svg"><img src="./icons/15-link.svg"></div>
-                </div>
-                <div class="supercool">Super Cool Projects <br>mbled it to make a type specimen book. It has survived
-                    not only five centuries, but also 
-                    <div class="project-icons"><img src="./icons/13-starplus.svg"><img
-                        src="./icons/14-eye-plus.svg"><img src="./icons/15-link.svg"></div>
+                <div class="bottom">
+                    <div>
+                        <img
+                            src="./icons/16-pp.jpg"
+                            class="greeting-image"
+                        >
+                    </div>
+                    <div class="greeting-text">
+                        Hi there
+                        <div>
+                            Mehmet Papila
+                        </div>
+                    </div>
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
                 </div>
             </div>
-            <div class="announcements">
-                <div>Site Maintenance <br>mbled it to make a type specimen book. It has survived
-                    not only five centuries, but also</div>
-                <div>Community Share Day <br>mbled it to make a type specimen book. It has survived
-                    not only five centuries, but also</div>
-                <div>Updated Privacy Policy <br>mbled it to make a type specimen book. It has survived
-                    not only five centuries, but also</div>
-            </div>
-            <div class="trending">
-                <div>tegan</div>
-                <div>morgan</div>
-                <div>kendall</div>
-                <div>alex</div>
+            <div class="main-content">
+                <div class="projects-container">
+                    <h2>Projects</h2>
+                    <div class="projects">
+                        <div class="supercool">Super Cool Projects <br>mbled it to make a type specimen book. It has
+                            survived
+                            not only five centuries, but also
+                            <div class="project-icons"><img src="./icons/13-starplus.svg"><img
+                                    src="./icons/14-eye-plus.svg"><img src="./icons/15-link.svg"></div>
+                        </div>
+                        <div class="supercool">Super Cool Projects <br>mbled it to make a type specimen book. It has
+                            survived
+                            not only five centuries, but also
+                            <div class="project-icons"><img src="./icons/13-starplus.svg"><img
+                                    src="./icons/14-eye-plus.svg"><img src="./icons/15-link.svg"></div>
+                        </div>
+                        <div class="supercool">Super Cool Projects <br>mbled it to make a type specimen book. It has
+                            survived
+                            not only five centuries, but also
+                            <div class="project-icons"><img src="./icons/13-starplus.svg"><img
+                                    src="./icons/14-eye-plus.svg"><img src="./icons/15-link.svg"></div>
+                        </div>
+                        <div class="supercool">Super Cool Projects <br>mbled it to make a type specimen book. It has
+                            survived
+                            not only five centuries, but also
+                            <div class="project-icons"><img src="./icons/13-starplus.svg"><img
+                                    src="./icons/14-eye-plus.svg"><img src="./icons/15-link.svg"></div>
+                        </div>
+                        <div class="supercool">Super Cool Projects <br>mbled it to make a type specimen book. It has
+                            survived
+                            not only five centuries, but also
+                            <div class="project-icons"><img src="./icons/13-starplus.svg"><img
+                                    src="./icons/14-eye-plus.svg"><img src="./icons/15-link.svg"></div>
+                        </div>
+                        <div class="supercool">Super Cool Projects <br>mbled it to make a type specimen book. It has
+                            survived
+                            not only five centuries, but also
+                            <div class="project-icons"><img src="./icons/13-starplus.svg"><img
+                                    src="./icons/14-eye-plus.svg"><img src="./icons/15-link.svg"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-sidebar">
+                    <h2>Announcements</h2>
+                    <div class="announcements">
+                        <div>Site Maintenance <br>mbled it to make a type specimen book. It has survived
+                            not only five centuries, but also</div>
+                        <div>Community Share Day <br>mbled it to make a type specimen book. It has survived
+                            not only five centuries, but also</div>
+                        <div>Updated Privacy Policy <br>mbled it to make a type specimen book. It has survived
+                            not only five centuries, but also</div>
+                    </div>
+                    <h2>Trending</h2>
+                    <div class="trending">
+                        <div>tegan</div>
+                        <div>morgan</div>
+                        <div>kendall</div>
+                        <div>alex</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
